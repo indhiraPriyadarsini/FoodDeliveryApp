@@ -8,9 +8,9 @@
 </head>
 <body>
 <h2>Welcome!</h2>
-<form action="adduser">
+<form action="/signin">
 <label>FULL NAME</label>
-<input type = "text" name="name" required><br><br>
+<input type = "text" name="username" required><br><br>
 <label>E-MAIL ID</label>
 <input type = "text" name="email" required><br><br>
 <label>PASSWORD</label>

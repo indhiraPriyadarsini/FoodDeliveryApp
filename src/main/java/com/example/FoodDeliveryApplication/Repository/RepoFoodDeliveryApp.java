@@ -7,6 +7,7 @@ import com.example.FoodDeliveryApplication.Model.ModelFoodDeliveryApp;
 @Repository
 public interface RepoFoodDeliveryApp extends CrudRepository<ModelFoodDeliveryApp, Integer>{
 	ModelFoodDeliveryApp findByEmail(String email);
+	ModelFoodDeliveryApp findByUsername(String username);
 	ModelFoodDeliveryApp findByPassword(String password);
 
 }

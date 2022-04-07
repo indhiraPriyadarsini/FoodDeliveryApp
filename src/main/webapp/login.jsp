@@ -7,7 +7,7 @@
 <title>LOGIN</title>
 </head>
 <body>
-<form action = "/check" method="post" > 
+<form action = "/login" method="post" > 
 <label>EMAIL</label><br>
 <input type = "email" name="email" required><br><br>
 <label>PASSWORD</label><br>
